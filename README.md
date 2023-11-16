@@ -1,10 +1,11 @@
 # Docker LibreDWG
 
-<https://www.gnu.org/software/libredwg/>
+- Source: <https://www.gnu.org/software/libredwg/>
+- GitHub: <https://github.com/cornking2020/docker-libredwg>
 
 Files:
 
-- /usr/local/lib64/libredwg.so
+- /usr/local/lib/libredwg.so
 - /usr/local/include/dwg.h
 - /usr/local/include/dwg_api.h
 - /usr/local/bin/dwgread
