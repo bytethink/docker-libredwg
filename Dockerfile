@@ -7,7 +7,7 @@ RUN apk add git cmake make g++ && sh /opt/build.sh
 
 FROM alpine:latest AS runner
 
-COPY --from=builder /usr/local/lib64/libredwg.so /usr/local/lib64/libredwg.so
+COPY --from=builder /usr/local/lib/libredwg.so /usr/local/lib/libredwg.so
 COPY --from=builder /usr/local/include/dwg.h /usr/local/include/dwg.h
 COPY --from=builder /usr/local/include/dwg_api.h /usr/local/include/dwg_api.h
 COPY --from=builder /usr/local/bin/dwgread /usr/local/bin/dwgread
