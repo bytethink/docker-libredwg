@@ -5,18 +5,20 @@
 
 Files:
 
-- /usr/local/lib/libredwg.so
-- /usr/local/include/dwg.h
-- /usr/local/include/dwg_api.h
-- /usr/local/bin/dwgread
-- /usr/local/bin/dwg2dxf
-- /usr/local/bin/dwggrep
-- /usr/local/bin/dwglayers
-- /usr/local/bin/dwgbmp
-- /usr/local/bin/dwg2SVG
-- /usr/local/bin/dwgrewrite
-- /usr/local/bin/dwgwrite
-- /usr/local/bin/dxf2dwg
+```text
+/usr/local/lib/libredwg.so
+/usr/local/include/dwg.h
+/usr/local/include/dwg_api.h
+/usr/local/bin/dwgread
+/usr/local/bin/dwg2dxf
+/usr/local/bin/dwggrep
+/usr/local/bin/dwglayers
+/usr/local/bin/dwgbmp
+/usr/local/bin/dwg2SVG
+/usr/local/bin/dwgrewrite
+/usr/local/bin/dwgwrite
+/usr/local/bin/dxf2dwg
+```
 
 ## Build
 
