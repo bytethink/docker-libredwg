@@ -1,8 +1,5 @@
 # Docker LibreDWG
 
-- Source: <https://www.gnu.org/software/libredwg/>
-- GitHub: <https://github.com/cornking2020/docker-libredwg>
-
 Files:
 
 ```text
